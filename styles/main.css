@@ -1,0 +1,261 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #fff;
+    background: #202020;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+input, button {
+    color: currentColor;
+}
+
+.container {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+header {
+    box-shadow: 0 0 5px #555;
+}
+
+header > .container {
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+}
+
+header > .container > .search-form {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 0 1px #ccc;
+}
+
+.search-form > input {
+    flex: 1;
+    background-color: transparent;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    background-color: #000;
+}
+
+.search-form > button {
+    background-color: transparent;
+    border: none;
+    flex-basis: 8%;
+}
+
+.auth > a {
+    padding: 0 5px;
+}
+
+.auth > a:first-child {
+    border-right: 1px solid #ccc;
+}
+
+.auth > a:hover {
+    color: #ccc;
+}
+
+.user-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-auth > a {
+    margin-left: 5px;
+    font-size: .8rem;
+    color: #b1a9a9;
+}
+
+/* Homepage */
+.small-video-box {
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+}
+
+.img-wrapper {
+    width: 300px;
+    height: 0;
+    padding-top: 70%;
+    position: relative;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-title {
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    word-break: break-all;
+}
+
+.video-secondary {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    color: #b1a9a9;
+}
+
+.video-description {
+    font-size: 1.1rem;
+
+    padding: 0;
+    margin: 0;
+}
+
+.video-time {
+    margin-left: 8px;
+    font-size: .9rem;
+}
+
+/* Video Page */
+
+.video-wrapper {
+    width: 1350px;
+    position: relative;
+    height: 0;
+    padding-top: calc(720 / 1280 * 100%);
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.video-info {
+    display: flex;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.video-info > img {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 5px;
+    margin-right: 12px;
+}
+
+.video-info > div > h2 {
+    margin: 0;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 650px;
+}
+
+.comment-form > * {
+    margin-bottom: 10px;
+}
+
+.comment-form > textarea {
+    width: 100%;
+    height: 90px;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 1px 0 #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.comment-form > button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+aside.recommend-video-container {
+    margin-left: auto;
+}
+
+.recommended-title {
+    margin: 0 0 8px;
+}
+
+.comment {
+    border-bottom: 1px solid #b1a9a9;
+    margin-bottom: 8px;
+}
+
+.comment > h5 {
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0 0 4px;
+}
+
+.comment > time {
+    font-size: .8rem;
+    color: #b1a9a9;
+}
+
+.comment:last-child {
+    border-bottom: 0;
+}
+
+/* Login Page */
+.sign-form {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.sign-form > input {
+    background-color: transparent;
+    height: 45px;
+    margin-bottom: 25px;
+    border:none;
+    box-shadow: 0 0 2px #b1a9a9;
+    padding: 0 5px;
+}
+.sign-form> button{
+    background-color: #444;
+    border:none;
+    height: 45px;
+}
