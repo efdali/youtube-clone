@@ -1,4 +1,5 @@
 <?php
+$title="Giriş Yap";
 require_once 'partials/header.php';
 include_once 'classes/User.php';
 

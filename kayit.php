@@ -1,4 +1,5 @@
 <?php
+$title="Kayıt Ol";
 require_once 'partials/header.php';
 include_once 'classes/User.php';
 
