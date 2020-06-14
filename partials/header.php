@@ -2,6 +2,7 @@
 
 session_start();
 
+// veritabanı bağlantısı
 require_once 'helpers/db.php';
 ?>
 
