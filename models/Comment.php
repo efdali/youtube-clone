@@ -2,6 +2,7 @@
 
 require_once 'User.php';
 
+// Veritabanı Comment tablosu modeli
 class Comment
 {
 

@@ -1,6 +1,6 @@
 <?php
 
-
+// Veritabanı User tablosu modeli
 class User
 {
     public $user_id;

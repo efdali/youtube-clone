@@ -2,6 +2,7 @@
 
 require_once 'User.php';
 
+// Veritabanı Video tablosu modeli
 class Video
 {
     public $video_id;
